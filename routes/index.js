@@ -19,7 +19,7 @@ router.get('/about', function(req, res, next) {
 
 /* GET services page. */
 router.get('/services', function(req, res, next) {
-  res.render('layout', { title: 'Services'
+  res.render('services', { title: 'Services'
 });
 });
 
