@@ -1,0 +1,60 @@
+.me {
+    width: 50%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picofme {
+    padding-bottom: 100px;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+body {
+    background-color: white;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mission {
+    width: 30%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.page {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}

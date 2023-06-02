@@ -19,5 +19,17 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madil0bz/Portfolio.git"
+  },
+  "author": "Madisyn Lobodzinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madil0bz/Portfolio/issues"
+  },
+  "homepage": "https://github.com/madil0bz/Portfolio#readme"
 }

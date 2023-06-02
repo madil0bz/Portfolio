@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/a01223bb-2131-4f3b-b0bc-8fbad0ed9e30/resourceGroups/PortfolioMadisynLobo/providers/Microsoft.Web/sites/PortfolioMadisynLobo",
+    "appService.deploySubpath": "."
+}
