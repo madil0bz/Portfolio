@@ -1,3 +1,5 @@
+/* Portfolio, Madisyn Lobodzinski, 301-286-511, 2023-06-02 */
+
 var express = require('express');
 var router = express.Router();
 
@@ -25,13 +27,14 @@ router.get('/services', function(req, res, next) {
 
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('layout', { title: 'Contact'
+  res.render('contact', { title: 'Contact'
 });
 });
 
 /* GET projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('layout', { title: 'Projects'
+  res.render('projects', { title: 'Projects'
  });
 });
 module.exports = router;
+

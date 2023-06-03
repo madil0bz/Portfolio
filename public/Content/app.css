@@ -1,3 +1,19 @@
+/* Portfolio, Madisyn Lobodzinski, 301-286-511, 2023-06-02 */
+
+/* Layout CSS */
+
+h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  body {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+/* Home Page CSS */
+
 .me {
     width: 50%;
     height: auto;
@@ -12,16 +28,11 @@
 }
 
 .logo {
-    width: 30%;
+    width: 15%;
     height: auto;
     display: block;
-    border-radius: 50%;
 }
 
-body {
-    background-color: white;
-    padding-bottom: 100px;
-}
 
 .mission {
     width: 30%;
@@ -31,6 +42,8 @@ body {
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* About me page CSS */
 
 .content {
     display:block;
@@ -42,8 +55,17 @@ body {
     padding-top: 5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-}
 
+}
+.picofme1{
+    width: 30%;
+    height: auto;
+    float: right;
+    display: block;
+    margin-top: 25%;
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
 .page {
     padding-top: 5%;
 }
@@ -54,6 +76,8 @@ body {
     align-items: center;
     height: 200px;
 }
+
+/* Service page CSS */
 
 .services {
     display:block;
@@ -94,14 +118,87 @@ body {
     margin-bottom: 1px;
   }
 
-  h1 {
-    padding-left: 20px;
-    padding-top: 20px;
+/* Contact page CSS */
+ 
+ form {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-left: 50px;
+ }
+
+ .submit {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+ }
+ .submit2{
+    padding-left: 50px;
+ }
+
+ #inputName, #inputEmail, #inputText {
+    width: 50%;
+    height: auto;
+ }
+
+ #inputText {
+    height: 200px;
+ }
+
+ textarea {
+    height: 200px;
+    width: 50%;
+    padding-left: 50px;
+ }
+
+/* Projects page CSS */
+
+.projects {
+    display:block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.proj1, .icon2, .icon3 {
+    height: auto;
+    width: 100px;
+    
+    padding-top: 100px;
+}
+
+.icons {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.icon1,.icon2,.icon3{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.item1, .item2 {
+    margin-right: 15%;
+}
+.item1, .item2, .item3{
+    width:300px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-align:center;
+    display:block;
+    margin-bottom: 1px;
   }
 
- .picofme1{
-    width: 100px;
+.proj1,.proj2, .proj3{
+    width: 300px;
     height: auto;
-    display: flex;
-    right: 100%;
- }
+    padding-bottom: 20px;
+}
+
+.proj3 {
+    width: 300px;
+    height: 370px;
+}
+
+ 

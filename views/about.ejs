@@ -1,30 +1,23 @@
+<!--Portfolio, Madisyn Lobodzinski, 301-286-511, 2023-06-02 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='stylesheet' href='/Content/app.css' />
-  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css" />
-  
-  <title><%= title %></title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:ital,wght@1,700&family=Poppins:wght@100;200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!--Linking the common page layout as well as scripts/styles-->
+  <%- include('partials/layout') %>
   
-  <script src="/jquery/dist/jquery.min.js"></script>
-  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/Scripts/app.js"></script>
-  
-  <%- include('layout') %>
- <div class="page">
+  <img class="picofme1" src="Assets\images\me3.jpg" alt="girl in a field">
+ 
+ 
+  <!--About me-->
+
+  <div class="page">
       <div class="content">
     
         <p>Hello everyone,</br></br>
@@ -46,9 +39,10 @@
         Madisyn Lobodzinski</p>
 
       </div>
-      <img class="picofme1" src="Assets\images\m2.jpg" alt="girl in a field">
-      <img class="picofme2" src="Assets\images\me3.JPG" alt="girl sitting on stairs">
-</div>
+  </div>
+
+
+  <!--Link to my resume -->
 
   <div class="resume">
     <a href="https://orange-dionis-93.tiiny.site/" target="_blank">
